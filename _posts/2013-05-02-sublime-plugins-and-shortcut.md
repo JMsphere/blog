@@ -67,7 +67,7 @@ Emmet是一款用于HTML、CSS和XSL的高效编程插件，原先zen coding需�
 
 这个插件提供jQuery的提示功能，不过每次提示都需要快捷键ctrl+shift+p上查找，不过如果和CodeIntel插件（下面说到）配合使用能互补不足，因为两个插件都有些jQuery代码缺少。
 
-[Alignment](https://github.com/wbond/sublime_alignment)
+###[Alignment](https://github.com/wbond/sublime_alignment)
 
 用法：选定要对齐的行，按`ctrl+alt+a`
 
@@ -76,14 +76,14 @@ Emmet是一款用于HTML、CSS和XSL的高效编程插件，原先zen coding需�
 
 等号对齐插件，使代码更美观
 
-[BracketHighlighter](https://github.com/facelessuser/BracketHighlighter)
+###[BracketHighlighter](https://github.com/facelessuser/BracketHighlighter)
 
 演示：
 ![brackerhightlighter](http://i.minus.com/ibfRUoeoflEuN8.gif)
 
 高亮显示光标所在的括号和引号，类似于代码匹配，可以匹配括号，引号等符号内的范围
 
-[Clipboard History](https://github.com/kemayo/sublime-text-2-clipboard-history)
+###[Clipboard History](https://github.com/kemayo/sublime-text-2-clipboard-history)
 
 用法：按`ctrl+shift+v`
 演示：
@@ -91,14 +91,14 @@ Emmet是一款用于HTML、CSS和XSL的高效编程插件，原先zen coding需�
 
 粘贴板历史记录，方便使用复制/剪切的内容，快捷键ctrl+shift+v可调出该历史记录面板
 
-[CodeIntel](https://github.com/Kronuz/SublimeCodeIntel)
+###[CodeIntel](https://github.com/Kronuz/SublimeCodeIntel)
 
 演示：
 ![codeIntel](http://i.minus.com/izNM5ohTBvVS1.gif)
 
 代码自动提示，支持大多数语言，能很好地提示大部分jQuery API
 
-[SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
+###[SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
 
 用法：`F12`
 演示：
@@ -107,7 +107,7 @@ Emmet是一款用于HTML、CSS和XSL的高效编程插件，原先zen coding需�
 
 这个插件能实现很多功能，比如改变菜单栏的选项，加入一些文件的打开方式，可以直接在sublime菜单中选择用photoshop打开图片什么的，但我看中它的功能是，按F12可用默认浏览器打开当前html页面，还可以通过修改来实现用其他浏览器打开当前页面
 
-[sublimeLinter](https://github.com/SublimeLinter/SublimeLinter)
+###[sublimeLinter](https://github.com/SublimeLinter/SublimeLinter)
 
 前提：[安装Node.js和npm](http://www.infoq.com/cn/articles/nodejs-npm-install-config)
 演示：
@@ -117,7 +117,7 @@ Emmet是一款用于HTML、CSS和XSL的高效编程插件，原先zen coding需�
 插件原文件中只定义了一些基础的js检查机制，你可以通过修改自由的定制它，是它更严格些（js检查机制是基于jshint，相关选项可以参照[此处](http://www.jshint.com/docs/#directives)添加）
 该插件可以高亮显示发生了js错误或css错误的行，这两种检查机制均可自由定制
 
-[sublime-v8](https://github.com/akira-cn/sublime-v8)
+###[sublime-v8](https://github.com/akira-cn/sublime-v8)
 
 用法：
 
@@ -130,7 +130,7 @@ Emmet是一款用于HTML、CSS和XSL的高效编程插件，原先zen coding需�
 
 和sublimeLinter一样都是基于jshint的，不同是这插件会显示出错原因，而且没有精力去折腾node.js的同学，可以直接用这个插件，这插件不需要Node.js
 
-[daylerees-schemes](https://github.com/daylerees/colour-schemes)
+###[daylerees-schemes](https://github.com/daylerees/colour-schemes)
 用法：菜单 preferences –> color schemes –> daylerees schemes
 
 演示：以上演示图的代码颜色均为该插件中的snappy主题
