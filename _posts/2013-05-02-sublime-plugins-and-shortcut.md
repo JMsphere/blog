@@ -1,6 +1,6 @@
 ---
 layout: post
-title: sublime快捷键及常用插件——工欲善其事，必先利其器
+title: "sublime快捷键及常用插件——工欲善其事，必先利其器"
 category: others
 excerpt: '本文介绍 sublime text2 相关的插件和快捷键的使用。'
 ---
