@@ -139,6 +139,11 @@ p{
 .post a {
 	color: #4183C4;
 }
+.post img{
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,1);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,1);
+	box-shadow: 0 0 4px rgba(0,0,0,.4);
+}
 .post h2, .post h3{
 	margin: 1.8em 0 .8em;
 }
@@ -157,6 +162,7 @@ p{
 	font-family: Consolas, "Liberation Mono", Courier, monospace;
 }
 .post code, .post tt {
+	white-space: pre;
 	margin: 0 .3em;
 	padding: 0px 0px;
 	border: 1px solid #eaeaea;
@@ -164,16 +170,16 @@ p{
 	border-radius: 3px;
 }
 .post pre{
+	line-height: 19px;
+	word-wrap: normal;
+	overflow: auto;
 	border:1px solid #ccc;
+	padding: 6px 10px;
 	background-color: #f8f8f8;
-	padding: 0 .4em;
+	font-size: 13px;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
-	font-size: 13px;
-	line-height: 19px;
-	overflow: auto;
-	padding: 6px 10px;
 }
 .post ul, .post ol{
 	margin-left: 1.35em;
