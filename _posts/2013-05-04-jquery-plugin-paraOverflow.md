@@ -44,9 +44,8 @@ CSS3中提供了一个 text-overflow 属性来处理‘行溢出’（这也是�
 
 ##代码
 
-###完整代码
+###完整代码4
 
-{% highlight JavaScript %}  
 	;(function($){
 	    // 段落溢出处理函数
 	    $.fn.extend({
@@ -77,15 +76,14 @@ CSS3中提供了一个 text-overflow 属性来处理‘行溢出’（这也是�
 	    });
 	    $.fn.paraOverflow.setup={};
 	}(jQuery));
-{% endhighlight %}
 
 ###说明
 
 * 第一行的分号是为了避免“合并代码时，受他人不规范代码（漏写行尾分号）的影响而发生的”错误：
 
-		;(function($){
-			// …… ……
-		})(jQuery);
+	;(function($){
+		// …… ……
+	})(jQuery);
 
 * 为了使调用这个插件的jQuery变量继续支持**链式操作**，需要返回该jQuery变量，而 each() 函数本身是支持链式操作（意思是，它返回的值就是this，也就是该当前的jQuery变量），所以这里直接返回 each() 函数：
 

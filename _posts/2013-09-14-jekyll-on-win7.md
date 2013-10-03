@@ -88,7 +88,11 @@ Jekyll 安装成功后，在任意目录下，创建一个初始的模板：
 
 >>		 Conversion error: There was an error converting '_posts/XXXX-XX-XX-XXXXX.md'
 
->>该错误是由于“ Windows 平台下运行的 Jekyll **不支持代码语法高亮显示**功能”所导致的，所以在**本地测试时**，需要关掉此项功能：打开`_config.yml`文件，将其中的`pygments`项设为`false`。
+>>该错误是由于没有安装pygments所导致的，可以选择关掉此项功能：打开`_config.yml`文件，将其中的`pygments`项设为`false`。或者参考以下几篇文章来安装pygments：
+>>
+>>* [Pygments 代码高亮](http://chxt6896.github.io/blog/2011/12/01/blog-pygments.html)
+>>* [win7下jekyll使用pygments配置代码高亮](http://www.aaronzh.cn/blog/install-pygments/)
+>>* [Windows 安装 Jekyll 若干问题的解决](http://dannyli.net/notes/fix-problems-of-jekyll-on-windows/)
 
 ###写博文
 首先，博文格式有几点需要注意的：
@@ -222,6 +226,13 @@ Jekyll 安装成功后，在任意目录下，创建一个初始的模板：
 
 	创建后，在后台管理选择‘工具’选项，将其中提供的通用代码复制粘贴到博文页面中即可。
 
+* 调试页面：
+
+	本地调试页面时，可以在打开服务器的命令中加入`--watch`：
+
+		jekyll serve --watch
+
+	这样，每次修改页面内容后，通过刷新页面就可以看到修改后的结果了。
 
 ##相关链接
 ###官方文档
