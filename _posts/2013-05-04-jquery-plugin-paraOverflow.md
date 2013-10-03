@@ -78,6 +78,7 @@ CSS3中提供了一个 text-overflow 属性来处理‘行溢出’（这也是�
 	    $.fn.paraOverflow.setup={};
 	}(jQuery));
 {% endhighlight %}
+
 ###说明
 
 * 第一行的分号是为了避免“合并代码时，受他人不规范代码（漏写行尾分号）的影响而发生的”错误：
