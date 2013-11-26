@@ -4,7 +4,6 @@ title: "SASS用法"
 category: front-end
 excerpt: 'Sass是CSS预编译器，提供一些便捷的写法——嵌套、变量、函数等——来生成常规的CSS。Sass支持SCSS和SASS两种语法来写CSS，本文的叙述是基于SCSS语法。'
 ---
-#Sass
 
 Sass是CSS预编译器，提供一些便捷的写法——嵌套、变量、函数等——来生成常规的CSS。
 
